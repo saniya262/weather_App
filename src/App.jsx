@@ -7,7 +7,7 @@ import cloudsImage from './images/cloudy.jpg';
 import rainImage from './images/rainy.jpg';
 import snowImage from './images/snowy.jpg';
 import hazeImage from './images/haze.jpg'; 
-import DateTime from './dateTime';
+import DateTime from './DateTime';
 
 
 

@@ -29,11 +29,11 @@ function DateTime () {
   };
 
   return (
-    <div style={{marginTop:"33rem"}}>
+    <div style={{marginTop:"30rem"}}>
       
-        <h1 style={{fontWeight:"lighter",fontSize:"60px",top:"46rem",left:"13rem",position:"fixed"}}>{formatTime(currentTime)} </h1> 
+        <h1 style={{fontWeight:"lighter",fontSize:"60px",top:"36rem",left:"9rem",position:"fixed"}}>{formatTime(currentTime)} </h1> 
 
-        <h5 style={{top:"52rem",left:"15rem",fontWeight:"lighter", position:"fixed"}}>{formatDate(currentTime)}</h5>
+        <h5 style={{top:"40rem",left:"9rem",fontWeight:"lighter", position:"fixed"}}>{formatDate(currentTime)}</h5>
 
         
     </div>

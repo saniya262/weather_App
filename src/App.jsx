@@ -148,7 +148,7 @@ const App = () => {
 
         <div className="box box5">
           {weather && (
-            <p style={{ fontSize: '110px', top: '42rem', left: '52rem', position: 'fixed' }}>
+            <p style={{ fontSize: '70px', top: '35rem', left: '47rem', position: 'fixed' }}>
               {weather.main.temp}°C
             </p>
           )}

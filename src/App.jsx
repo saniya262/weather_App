@@ -92,7 +92,7 @@ const App = () => {
         <div className="box box3" id="last-col">
           <div>
             <h1 style={{ marginTop: '40px', fontSize: '60px' }}>Weather App</h1>
-            <div className="row justify-content-end" style={{ marginTop: '80px' }}>
+            <div className="row justify-content-end" style={{ marginTop: '40px' }}>
               <div className="col-6">
                 <input
                   type="text"
@@ -112,12 +112,12 @@ const App = () => {
             </div>
 
             {weather && (
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
-                <h1 style={{ fontSize: '50px', marginRight: '10px' }}>{weather.name}</h1>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '8px' }}>
+                <h1 style={{ fontSize: '40px', marginRight: '10px' }}>{weather.name}</h1>
                 <img
                   src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
                   alt="weather icon"
-                  style={{ width: '110px', height: '110px' }}
+                  style={{ width: '110px', height: '90px' }}
                 />
               </div>
             )}

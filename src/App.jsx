@@ -91,7 +91,7 @@ const App = () => {
 
         <div className="box box3" id="last-col">
           <div>
-            <h1 style={{ marginTop: '40px', fontSize: '60px' }}>Weather App</h1>
+            <h1 style={{ marginTop: '40px', fontSize: '60px' }}>Weather</h1>
             <div className="row justify-content-end" style={{ marginTop: '40px' }}>
               <div className="col-6">
                 <input
